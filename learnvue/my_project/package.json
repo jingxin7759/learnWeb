@@ -1,0 +1,36 @@
+{
+  "name": "my_project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "webpack-dev-server --config config/webpack.config.dev.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.6",
+    "less": "^4.1.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "webpack": "^5.59.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "4.14.1",
+    "sass-loader": "8.x",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "main": "index.js",
+  "author": "中舟",
+  "license": "MIT"
+}
